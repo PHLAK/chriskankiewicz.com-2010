@@ -1,24 +1,10 @@
 # Allow all
 User-agent: *
-Disallow: /__dev
-Disallow: /__webmail
-Disallow: /_bignubian
-Disallow: /_chrisandsarah2008
-Disallow: /_chronostudios
-Disallow: /_crab-battle
-Disallow: /_digital-ballistics
-Disallow: /_phlaknet
-Disallow: /_phx2600
-Disallow: /_skank-tank
-Disallow: /_web-geek
 Disallow: /b
-Disallow: /cgi-bin
 Disallow: /documents
 Disallow: /includes
 Disallow: /music
-Disallow: /pool
 Disallow: /thickbox
-Disallow: .ftpquota
 Disallow: .htaccess
 Allow: /documents/phx2600/hax/dictionary.txt
 Allow: /gallery

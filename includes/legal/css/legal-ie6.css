@@ -1,0 +1,27 @@
+/* -----[ DISPLAY FIXES ]----- */
+
+#legal-wrapper {
+	width: 760px;
+}
+
+/* -----[ LIST FIXES ]----- */
+
+li#share {
+	height: 32px;
+}
+
+li#remix {
+	height: 32px;
+}
+
+li#by {
+	height: 32px;
+}
+
+li#nc {
+	height: 32px;
+}
+
+li#sa {
+	height: 32px;
+}

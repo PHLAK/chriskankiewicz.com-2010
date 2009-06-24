@@ -1,0 +1,159 @@
+/*
+ *  NAME:    CC BY-NC-SA Legal Page
+ *  AUTHOR:  Chris Kankiewicz
+ *  URL:     http://www.ChrisKankiewicz.com
+ *  EMAIL:   Chris@ChrisKankiewicz.com
+ */
+
+/* -----[ GENERAL ]----- */
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #323232 url('../images/legal-bg.gif') top left;
+	color: #333;
+	font-family: Sans-Serif, Helvetica, Verdana, Tahoma, Sans;
+	font-size: 100%;
+	margin: 0;
+	padding: 15px;
+}
+
+a {
+	color: #3269AA;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+div.hr {
+	background-color: #AAA;
+	border: 0;
+	height: 1px;
+	margin: 1.2em 0;
+}
+
+div.hr hr {
+	display: none;
+}
+
+
+/* -----[ CONTENT ] ----- */
+
+#legal-wrapper {	
+	background-color: #FFF;
+	border: 15px solid #3269AA;
+	font-size: .8em;
+	line-height: 1.2em;
+	margin: 0 auto;
+	max-width: 760px;
+	padding: 0;
+}
+
+#legal-content {
+	margin: 15px;
+}
+
+#legal-header {
+	text-align: center;
+}
+
+#legal-header a img {
+	border: none;
+	margin: 0 0 5px;
+}
+
+ul.cc {
+	list-style: none;
+}
+
+ul li {
+	margin: 1em 0;
+}
+
+li#share {
+	background: transparent url('../images/share-small.png') no-repeat top left;
+	min-height: 32px;
+	padding-left: 40px;
+}
+
+li#remix {
+	background: transparent url('../images/remix-small.png') no-repeat top left;
+	min-height: 32px;
+	padding-left: 40px;
+}
+
+li#by {
+	background: transparent url('../images/by-small.png') no-repeat top left;
+	min-height: 32px;
+	padding-left: 40px;
+}
+
+li#nc {
+	background: transparent url('../images/nc-small.png') no-repeat top left;
+	min-height: 32px;
+	padding-left: 40px;
+}
+
+li#sa {
+	background: transparent url('../images/sa-small	.png') no-repeat top left;
+	min-height: 32px;
+	padding-left: 40px;
+}
+
+/* -----[ LICENSE LINK ]----- */
+
+#license-link {
+	clear: both;
+	line-height: normal;
+	margin: 0 auto;
+	width: 172px;
+}
+
+#license-link a {
+	background-color: #DDF;
+	border: 2px solid #3269AA;
+	display: block;
+	float: left;
+	font-weight: bold;
+	font-size: 1.1em;
+	text-decoration: none;
+	width: 172px;
+}
+
+#license-link a:hover {
+	text-decoration: none;
+	background-color: #DFD;
+	border: 2px solid #32AA69;
+	color: #32AA69;
+}
+
+#license-link a img {
+	border: none;
+	float: left;
+	margin: 5px;
+}
+
+#license-link a span.link-text {
+	cursor: pointer; /* IE6 Fix */
+	float: right;
+	margin: 5px 5px 5px 0;
+}
+
+
+/* -----[ MISCELLANEOUS ]----- */
+
+.clear {
+  height: 0px !important;
+  clear: both;
+}
+
+
+
+
+
+	

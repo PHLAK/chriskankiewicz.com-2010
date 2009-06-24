@@ -1,0 +1,591 @@
+/***************************************
+*  Template:  ChrisKankiewicz.com      *
+*  Author:    Chris Kankiewicz         *
+*  URL:       http://www.web-geek.net  *
+*  Email:     chris@web-geek.net       *
+***************************************/
+
+/************
+*  GENERAL  *
+************/
+
+html {
+  margin: 0 !important;;
+  padding: 0;
+}
+
+body {
+  background: #DEDEDE url('../images/ck-bg.gif');
+  color: #333;
+  font-family:  sans-serif, Verdana, Tahoma, Sans, Arial, Helvetica;
+  font-size: 100%;
+  margin: .5em !important;
+}
+
+a {
+  color: #8A7;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/***********
+*  HEADER  *
+***********/
+
+#header {
+  margin: 0 auto;
+  position: relative;
+  width: 760px;
+}
+
+#header #title {
+
+}
+
+#header #title h1 {
+  font-size: 1.75em;
+  margin: 0;
+}
+
+/***************
+*  NAVIGATION  *
+***************/
+
+#navigation ul {
+  bottom: -1px;
+  list-style: none;
+  margin: 0;
+  position: absolute;
+  right: -1px;
+}
+
+#navigation ul li {
+  display: inline;
+  margin: 0;
+}
+
+#navigation ul li a {
+  /* background-color: #DEDEDE; */
+  background-color: #D4EDC9;
+  border: 1px solid #999;
+  color: #333;
+  float: left;
+  font-size: .75em;
+  font-weight: bold;
+  margin-left: 5px;
+  padding: 3px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#navigation ul li a:hover {
+  background-color: #A9DA92;
+}
+
+#navigation ul li a.current {
+  background-color: #FFF;
+  border-bottom: 1px solid #FFF;
+  /* color: #218C24; */
+}
+
+#navigation ul li a.current:hover {
+  background-color: #FFF;
+  border-bottom: 1px solid #FFF;
+  /* color: #218C24; */
+}
+
+#navigation ul li a img {
+	border: none;
+	margin-right: 5px;
+	position: relative;
+	top: 3px;
+}
+
+/************
+*  CONTENT  *
+************/
+
+#content {
+  background-color: #FFF;
+  border: 1px solid #999;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 10px;
+  width: 740px;
+}
+
+#content h2.title {
+  color: #8A7;
+  font-size: 1.1em;
+  margin: 0 0 1em 0;
+}
+
+#content h1 {
+  font-size: 1.25em;
+  margin: 0 0 1em 0;
+}
+
+#content h2 {
+  font-size: 1.1em;
+  margin: 0 0 1em 0;
+}
+
+#content h3 {
+  font-size: 1em;
+  margin: 0 0 1em 0;
+}
+
+#content h4 {
+  font-size: .9em;
+  margin: 0 0 1em 0;
+}
+
+#content h5 {
+  font-size: .8em;
+  margin: 0 0 1em 0;
+}
+
+#content h6 {
+  font-size: .7em;
+  margin: 0 0 1em 0;
+}
+
+#content .announce {
+  background: #D4EDC9 url('../images/icons/announce.png') no-repeat 5px center;
+  border: 1px solid #A9DA92;
+  padding: 5px 5px 5px 26px;
+  margin-bottom: 10px;
+}
+
+#content p {
+  font-size: 1em;
+  padding: 0 20px;
+  margin: 1em 0 !important;
+}
+
+#content pre {
+  font-size: 12px;
+  padding: 0 20px;
+}
+
+#content img {
+  border: 1px solid #CCC;
+  margin: 0;
+  padding: 4px;
+}
+
+#content img:hover {
+  border: 1px solid #000;
+}
+
+#content ul {
+  margin: 1em 0 !important;
+  margin-left: 20px !important;
+  padding: 0 20px !important;
+}
+
+#content li {
+  margin-bottom: .25em !important;
+}
+
+#content div.hr {
+  background-color: #CCC;
+  border: 0;
+  clear: both;
+  height: 1px;
+  margin: 1em 0;
+  width: 100%;
+}
+
+#content div.hr hr {
+  display: none;
+}
+
+/**********
+*  ICONS  *
+**********/
+
+ul#social-icons {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0;
+}
+
+ul#social-icons li {
+  float: left;
+  margin: 0 10px 0 0 !important;
+}
+
+/**********
+*  LEGAL  *
+**********/
+
+#legal {
+  font-size: 1.2em;
+  padding: 5px;
+  width: 99%;
+}
+
+#legal div.hr {
+  background-color: #CCC;
+  border: 0;
+  height: 1px;
+  margin: .8em 0;
+  width: 100%;
+}
+
+#legal div.hr hr {
+  display: none;
+}
+
+#legal a {
+  color: #00F !important;
+  text-decoration: none;
+}
+
+#legal a:hover {
+  text-decoration: underline;
+}
+
+/***********
+*  FOOTER  *
+***********/
+
+#footer	{
+  border-top: none;
+  clear: both;
+  color: #000;
+  min-height: 15px;
+  margin: 0 auto 1em;
+  padding: 5px 10px;
+  width: 740px;
+}
+
+#footer a {
+  color: #000;
+  text-decoration: underline;
+}
+
+#footer a:hover {
+  text-decoration: none;
+}
+
+#footer-left {
+  float: left;
+  font-size: .65em;
+  font-weight: bold;
+  margin: 0;
+}
+
+#footer-right	{
+  float: right;
+  font-size: .65em;
+  font-weight: bold;
+  margin: 0;
+  /* text-align: right; */
+}
+
+/*********
+*  MISC  *
+*********/
+
+.align-left {
+  float: left;
+  clear: right;
+  margin-right: 8px !important;
+}
+
+.align-right {
+  float: right;
+  clear: left;
+  margin-left: 8px !important;
+}
+
+.clear {
+  height: 0px !important;
+  clear: both;
+}
+
+/**************
+*  IE6 CHECK  *
+**************/
+
+#ie6-check {
+  background-color: #C00;
+  color: #FFF;
+  display: none;
+  font-size: .8em;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+#ie6-check a {
+  color: #FFF;
+  text-decoration: underline;
+}
+
+#ie6-check p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#ie6-check div.hr {
+  background-color: #FFF;
+  border: 0;
+  height: 1px;
+  margin: .5em 0;
+  width: 100%;
+}
+
+#ie6-check div.hr hr {
+  display: none;
+}
+
+
+/**********  EXTRA STYLES  **********/
+
+
+/****************
+*  HOME BUTTONS *
+****************/
+
+#button-wrapper {
+  height: 150px;
+  margin: 0 auto;
+  width: 700px;
+}
+
+.button {
+  float: left;
+  font-weight: bold;
+  height: 150px;
+  margin: 0 10px;
+  text-align: center;
+  width: 150px;
+}
+
+.botton:hover {
+  border: 1px solid #000;
+}
+
+.button img {
+  border: 0 !important;
+}
+
+/************
+*  TWITTER  *
+************/
+
+#twitter_div ul {
+  font-size: .8em;
+  list-style: none;
+  margin: 0 !important;
+}
+
+#twitter_div ul li {
+  border-bottom: 1px dashed #CCC;
+  margin: 0 !important;
+  padding: 5px 0 !important;
+}
+
+/***********
+*  RESUME  *
+***********/
+
+#resume {
+  width: 734px;
+}
+
+#resume table {
+  margin-bottom: .8em;
+}
+
+#resume h1 {
+  font-size: 1.75em;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#resume h2 {
+  background-color: #DDD;
+  clear: both;
+  display: block;
+  font-size: 1em;
+  padding: 3px;
+  margin: 8px 0;
+  width: 100%;
+}
+
+#resume h3 {
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+}
+
+#resume table {
+  border-spacing: 0;
+}
+
+#resume table tr td {
+  min-width: 75px;
+  padding: 0;
+}
+
+#resume p {
+  font-size: .9em;
+  margin: 0 0 .8em 0 !important;
+}
+
+#resume .info {
+  font-size: .9em;
+}
+
+#resume .sub-text {
+  font-size: .75em;
+  font-style: italic;
+}
+
+#resume ul {
+  font-size: .9em;
+}
+
+#resume #experience ul li {
+  margin: 10px 0;
+}
+
+#resume .resume-left {
+  float: left;
+  width: 49%;
+  text-align: left;
+}
+
+#resume .resume-right {
+  float: right;
+  width: 50%;
+  text-align: left;
+}
+
+#last-update {
+  float: right;
+  font-size: .7em;
+  margin: 0 !important;
+}
+
+/************
+*  TOOLTIP  *
+************/
+
+#tooltip{
+  background:#D4EDC9;
+  border: 1px solid #666;
+  color: #333;
+  display: none;
+  padding: 2px 5px;
+  position: absolute;
+}	
+
+/************
+*  GALLERY  *
+************/
+
+#gallery-wrapper {
+  width: 100%;
+}
+
+#ck-gallery {
+  margin: 0 auto;
+  width: 708px; /* Limit output width here */
+}
+
+#ck-gallery img {
+  background-color: #FFF;
+  border: 1px solid #CCC;
+  float: left;
+  margin: 5px !important;
+  padding: 3px;
+}
+
+#ck-gallery img:hover {
+  border: 1px solid #000;
+}
+
+#ck-gallery div.hr {
+  background-color: #CCC;
+  border: 0;
+  height: 1px;
+  margin: .5em 0 .2em;
+}
+
+#ck-gallery div.hr hr {
+  display: none;
+}
+
+#credit {
+  float: right;
+  font-size: .8em;
+}
+
+#ck-notice {
+  background-color: #D4EDC9;
+  border: 1px solid #A9DA92;
+  font-size: .8em;
+  padding: 5px;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.clear {
+  height: 0px !important;
+  clear: both;
+}
+
+/***************
+*  PAGINATION  *
+***************/
+
+#ck-pagination {
+  float: left;
+  font-size: .8em;
+  font-weight: bold;
+  margin: 0 !important;
+  padding: 0 !important;
+  text-align: center;
+}
+
+#ck-pagination li {
+  background-color: #D4EDC9;
+  border: 1px solid #999;
+  display: block;
+  float: left;
+  list-style: none;
+  margin: 0 5px 0 0 !important;
+}
+
+#ck-pagination li:hover {
+  background-color: #A9DA92;
+}
+
+#ck-pagination li a {
+  color: #333;
+  display: block;
+  padding: 2px 5px;
+  text-decoration: none;
+}
+
+#ck-pagination li.current-page {
+  background-color: #FFF;
+  border: 1px solid #999;
+  color: #333;
+  padding: 2px 5px;
+}
+
+#ck-pagination li.inactive {
+  background-color: #D4EDC9;
+  border: 1px solid #CCC;
+  color: #CCC;
+  display: block;
+  padding: 2px 5px;
+}

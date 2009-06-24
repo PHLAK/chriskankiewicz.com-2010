@@ -1,0 +1,110 @@
+/************
+*  GENERAL  *
+************/
+
+body {
+  font-family: sans-serif, verdana, sarif, tahoma;
+  font-size: 100%;
+}
+
+#resume {
+  margin: 0 auto;
+  width: 760px;
+}
+
+#resume table {
+  margin-bottom: .8em;
+}
+
+#resume #contact-info {
+  margin-bottom: 8px;
+}
+
+/*************
+*  HEADINGS  *
+*************/
+
+#resume h1 {
+  font-size: 1.75em;
+  padding: 0;
+  margin: 0;
+}
+
+#resume h2 {
+  background-color: #DDD;
+  clear: both;
+  display: block;
+  font-size: 1em;
+  padding: 3px;
+  margin: 8px 0;
+  width: 100%;
+}
+
+#resume h3 {
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+}
+
+
+/***********
+*  TABLES  *
+***********/
+
+#resume table {
+  border-spacing: 0;
+}
+
+#resume table tr td {
+  min-width: 75px;
+  padding: 0;
+}
+
+
+/*********
+*  TEXT  *
+*********/
+
+#resume p {
+  font-size: .9em;
+  margin: 0 0 .8em 0;
+}
+
+#resume .info {
+  font-size: .9em;
+}
+
+#resume .sub-text {
+  font-size: .75em;
+  font-style: italic;
+}
+
+
+/**********
+*  LISTS  *
+**********/
+
+#resume ul {
+  font-size: .9em;
+}
+
+#resume #experience ul li {
+  margin: 10px 0;
+}
+
+
+/****************
+*  POSITIONING  *
+****************/
+
+#resume .resume-left {
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+
+#resume .resume-right {
+  float: right;
+  width: 50%;
+  text-align: left;
+}

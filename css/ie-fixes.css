@@ -1,0 +1,13 @@
+#legal {
+  font-size: 1.2em;
+  padding: 5px;
+  width: 95%;
+}
+
+#resume table {
+  margin-bottom: 0;
+}
+
+.clear {
+  display: none;
+}

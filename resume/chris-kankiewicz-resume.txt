@@ -1,0 +1,118 @@
+Chris Kankiewicz
+
+Cell:     602-684-0523
+Email:    Chris@ChrisKankiewicz.com
+AIM:      ChrisKankiewicz
+Website:  http://www.ChrisKankiewicz.com
+Address:  12231 N 19th Street #264 Phoenix, AZ 85022
+
+
+--------------------------------------------------------------------------------
+Summary
+--------------------------------------------------------------------------------
+
+Self taught web designer and programmer with real world experience and a desire 
+to learn. Personal strengths include advanced troubleshooting and problem 
+solving skills, the capacity to acquire and apply new knowledge quickly and 
+great customer service skills.
+
+
+--------------------------------------------------------------------------------
+Job Experience
+--------------------------------------------------------------------------------
+
+PetSmart Store Support Group
+Solution Center Technician
+February 2008 - Present
+
+  - Provided over-the-phone technical support to store and corporate employees.
+  - Performed troubleshooting on store servers, registers, and workstations.
+
+--------------------
+
+Elontec
+Systems Technician
+October 2007 - February 2008
+
+  - Planned and implemented store-wide PC and Point of Sale systems and performed
+    server upgrades.
+  - Performed basic troubleshooting on implemented systems.
+
+--------------------
+
+Jannenga Enterprises, LLC
+Web & Graphics Designer
+May 2006 – October 2007
+
+  - Conceptualized, designed and coordinated the implementation of detailed web
+    pages and graphics.
+  - Performed routine and advanced maintenance on PC systems, basic and advanced
+    networks, and other digital equipment.
+
+--------------------
+
+Best Buy Co.
+In-Store Technician
+April 2005 – July 2006
+Phoenix, AZ
+
+  - Performed routine maintenance on PC systems and other digital equipment
+  - Opened, operated, and closed Geek Squad department and provided customer
+    service as needed.
+
+
+--------------------------------------------------------------------------------
+Qualifications
+--------------------------------------------------------------------------------
+
+Proficient with:
+
+  - PHP
+  - (X)HTML
+  - CSS
+  - Search Engine Optimization (SEO)
+  - Photoshop CS3
+  - Eclipse IDE
+  - Git Version Control
+  - All Windows operating systems
+  - All Microsoft Office applications
+
+--------------------
+
+Familiar with or learning:
+
+  - jQuery
+  - Drupal CMS
+  - LAMP environments
+  - MySQL
+  - Java
+  - Unix/Linux based operating systems
+  - Cisco IOS
+  - Remedy Action Request System
+
+
+--------------------------------------------------------------------------------
+Education
+--------------------------------------------------------------------------------
+
+DeVry University
+July 2004 - February 2008
+
+  - Bachelor’s of Science Degree in Networking and Communication Management.
+
+--------------------
+
+Shadow Mountain High School
+2001 - 2005
+
+  - High school diploma
+  - 3.5 graduating GPA
+
+
+--------------------------------------------------------------------------------
+Achievements
+--------------------------------------------------------------------------------
+
+  - Eagle Scout
+  - Project: CK-Gallery (http://code.web-geek.net/ck-gallery)
+  - Attended Defcon Security Convention 2005 - 2008

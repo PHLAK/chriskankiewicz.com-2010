@@ -11,15 +11,24 @@ Address:  12231 N 19th Street #264 Phoenix, AZ 85022
 Summary
 --------------------------------------------------------------------------------
 
-Self taught web designer and programmer with real world experience and a desire 
-to learn. Personal strengths include advanced troubleshooting and problem 
-solving skills, the capacity to acquire and apply new knowledge quickly and 
+Self taught web designer and programmer with real world experience and a desire
+to learn. Personal strengths include advanced troubleshooting and problem
+solving skills, the capacity to acquire and apply new knowledge quickly and
 great customer service skills.
 
 
 --------------------------------------------------------------------------------
 Job Experience
 --------------------------------------------------------------------------------
+
+
+Southwest Medical & Rehab
+Web Developer (March 2009 - Present)
+
+  - Conceptualized, designed and implemented detailed e-commerce site layouts.
+  - Performed search engine optimizations to enhance traffic to all sites.
+
+--------------------
 
 PetSmart Store Support Group
 Solution Center Technician

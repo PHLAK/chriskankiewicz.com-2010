@@ -32,7 +32,6 @@
         <li><a href="http://www.web-geek.net" title ="Web Geek">http://www.web-geek.net</a></li>
         <li><a href="http://www.chronostudios.com" title ="Chrono Studios">http://www.chronostudios.com</a></li>
         <li><a href="http://www.crab-battle.com" title="CRAB BATTLE!!!">http://www.crab-battle.com</a></li>
-        <li><a href="http://www.digital-ballistics.com" title="Digital Ballistics">http://www.digital-ballistics.com</a></li>
         <li><a href="http://www.phlaknet.com" title="PHLAKNET">http://www.phlaknet.com</a></li>
         <li><a href="http://www.phx2600.org" title="PHX2600">http://www.phx2600.org</a></li>
       </ul>

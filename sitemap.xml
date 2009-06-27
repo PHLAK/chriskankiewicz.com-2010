@@ -9,61 +9,45 @@
 <url>
   <loc>http://www.chriskankiewicz.com/</loc>
   <priority>1.00</priority>
-  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://www.chriskankiewicz.com/index.php</loc>
   <priority>0.80</priority>
-  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://www.chriskankiewicz.com/resume.php</loc>
   <priority>0.80</priority>
-  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://www.chriskankiewicz.com/photography.php</loc>
   <priority>0.80</priority>
-  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://www.chriskankiewicz.com/about.php</loc>
   <priority>0.80</priority>
-  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://www.chriskankiewicz.com/contact.php</loc>
   <priority>0.80</priority>
-  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://www.chriskankiewicz.com/resume/chris-kankiewicz-resume.doc</loc>
   <priority>0.64</priority>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.chriskankiewicz.com/resume/chris-kankiewicz-resume.odt</loc>
-  <priority>0.64</priority>
-  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://www.chriskankiewicz.com/resume/chris-kankiewicz-resume.pdf</loc>
   <priority>0.64</priority>
-  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://www.chriskankiewicz.com/resume/chris-kankiewicz-resume.txt</loc>
   <priority>0.64</priority>
-  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://www.chriskankiewicz.com/photography.php?page=2</loc>
   <priority>0.64</priority>
-  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://www.chriskankiewicz.com/photography.php?page=1</loc>
   <priority>0.51</priority>
-  <changefreq>monthly</changefreq>
 </url>
 </urlset>

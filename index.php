@@ -26,7 +26,7 @@
 
       <ul id="twitter_update_list"><li><!-- BLANK --></li></ul>
     </div>
-    <p>Follow me on Twitter: <a href="http://twitter.com/PHLAK" target="_blank">http://twitter.com/PHLAK</a></p>
+    <p>Follow me on Twitter: <a href="http://twitter.com/PHLAK" target="_blank">@PHLAK</a></p>
     <div class="clear"></div>
   </div>
 

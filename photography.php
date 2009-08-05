@@ -5,21 +5,21 @@
   <?php include_once('includes/header.php'); ?>
 
 <body>
-  
+
   <?php include_once('includes/navigation.php'); ?>
 
   <div id="content">
     <h2 class="title">Photography</h2>
     <div class="announce">View more photos on my Flickr page at: <a href="http://www.flickr.com/photos/kankie" target="_blank">http://www.flickr.com/photos/kankie</a></div>
 
-<?php include_once('includes/ck-gallery.php'); ?>
+<?php include_once('ck-gallery/ck-gallery.php'); ?>
 
   </div>
 
   <?php include_once('includes/footer.php') ?>
-  
+
   <?php include_once('includes/post-footer.php'); ?>
-  
+
   <?php if ($gzip == "1") echo("<!-- Page served with gzip compression -->\r\n"); ?>
 
 </body>

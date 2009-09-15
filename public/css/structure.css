@@ -1,0 +1,91 @@
+/***************************************************************************\
+|**********|                                                     |**********|
+|**********|    ChrisKankiewicz.com site structure stylesheet    |**********|
+|**********|  By, Chris Kankiewicz (http://ChrisKankiewicz.com)  |**********|
+|**********|                                                     |**********|
+\***************************************************************************/
+
+/* --------------------- */
+/* -----| HEADER | ----- */
+/* --------------------- */
+
+#header {
+	height: 120px;
+	margin: 0;
+}
+
+.width-constraint {
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	width: 960px;
+}
+
+/* ------------------- */
+/* -----| BODY | ----- */
+/* ------------------- */
+
+#content {
+	float: left;
+	margin-right: 200px;
+	width: 750px;
+}
+
+#right-bar {
+	float: right;
+	margin-left: -200px;
+	width: 200px;
+}
+
+/* --------------------- */
+/* -----| FOOTER | ----- */
+/* --------------------- */
+
+* { margin:0; padding:0; }
+
+html, body, #wrap {
+	height: 100%;
+}
+
+body > #wrap {
+	height: auto;
+	min-height: 100%;
+}
+
+#main {
+	padding-bottom: 107px;	/* Must be same height as the footer */
+}
+
+#footer {
+	border-top: 1px solid #CCC;
+	clear:both;
+	height: 107px;
+	margin-top: -107px;		/* Negative value of footer height */
+	position: relative;
+}
+
+/* --- OTHER FOOTER STUFF --- */
+
+#footer-top {
+	background-color: #FFF;
+	height: 62px;
+	padding: 10px 0;
+}
+
+#footer-bottom {
+	height: 24px;
+	text-align: center;
+}
+
+/* --- CLEAR FIX --- */
+
+.clearfix:after {content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */

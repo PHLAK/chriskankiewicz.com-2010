@@ -1,0 +1,200 @@
+/* --------------------- */
+/* -----| GENERAL |----- */
+/* --------------------- */
+
+html {
+	font-size: 100%;
+}
+
+body {
+	color: #333;
+	font-family: Sans-serif, Verdana, Tahoma, Arial, Helvetica, Sans;
+	font-size: 1em;
+}
+
+a {
+	color: #8B3;
+	outline: none;
+}
+
+a:hover {
+	/* color: #333; */
+}
+
+/* -------------------- */
+/* -----| HEADER |----- */
+/* -------------------- */
+
+#header {
+	background-color: #8B3;
+	color: #FFF;
+	float: left;
+	width: 100%;
+}
+
+#site-title {
+	display: inline-block;
+	font-family: Sans;
+	font-size: 2.5em;
+	font-weight: bold;
+	margin: 0;
+	margin-top: 20px;
+}
+
+#site-title a {
+	display: inline-block;
+}
+
+/* ------------------------ */
+/* -----| NAVIGATION |----- */
+/* ------------------------ */
+
+#site-navigation {
+	bottom: 0;
+	list-style: none;
+	margin: 0;
+	position: absolute;
+	left: 0;
+}
+
+#site-navigation li {
+	display: inline;
+  	margin: 0;
+}
+
+#site-navigation li a {
+	background-color: #B6DA79;
+	color: #333;
+	float: left;
+	font-size: .8em;
+	font-weight: bold;
+	margin-right: 5px;
+	padding: 6px 9px;
+	text-decoration: none;
+	text-transform: uppercase;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+}
+
+
+/* --------------------- */
+/* -----| CONTENT |----- */
+/* --------------------- */
+
+
+
+
+
+
+/* -------------------- */
+/* -----| FOOTER |----- */
+/* -------------------- */
+
+#footer-top {
+	text-align: center;
+}
+
+/* --- ICONS --- */
+
+#social-icons {
+	display: inline-block;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	width: auto;
+}
+
+#social-icons li {
+	float: left;
+	list-style: none;
+	margin: 0 10px 0 0 !important;
+}
+
+#social-icons li a {
+	background-color: #FFF;
+	border: 1px solid #999;
+	display: inline-block;
+	padding: 5px;
+	position: relative;
+	text-decoration: none;
+	-moz-border-radius: 5px;
+}
+
+.social-icon-popup {
+	bottom: 55px;
+	display: none;
+	left: 50%;
+	margin-left: -120px;
+	position: absolute;
+	text-align: center;
+	width: 240px;
+}
+
+.popup-top {
+	background-color: #FFC;
+	border: 1px solid #CC9;
+	color: #333;
+	padding: 5px;
+	-moz-border-radius: 5px;
+}
+
+.popup-bottom {
+	background: transparent url(/images/popup-bg.gif) no-repeat center top;
+	height: 14px;
+	position: relative;
+	top: -1px;
+}
+
+.social-icon-popup h5 {
+	font-size: 1em;
+	margin: 0 0 2px;
+}
+
+.social-icon-popup p {
+	font-size: .8em;
+	margin: 0;
+}
+
+#social-icons li a:hover .social-icon-popup {
+	display: block;
+}
+
+#tooltip {
+	background: #D4EDC9;
+	border: 1px solid #666;
+	color: #333;
+	display: none;
+	padding: 2px 5px;
+	position: absolute;
+}
+
+#footer-bottom {
+	background-color: #121212;
+	color: #FFF;
+	font-size: .8em;
+}
+
+#footer-bottom p {
+	margin: 0;
+	padding: 4px 0;
+}
+
+
+/* --------------------------- */
+/* -----| MISCELLANEOUS |----- */
+/* --------------------------- */
+
+.left {
+	float: left;
+	width: auto;
+}
+
+.right {
+	float: right;
+	width: auto;
+}
+
+.text-right {
+	text-align: right;
+}

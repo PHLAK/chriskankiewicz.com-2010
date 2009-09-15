@@ -108,7 +108,7 @@ a:hover {
 #social-icons li {
 	float: left;
 	list-style: none;
-	margin: 0 10px 0 0 !important;
+	margin: 0 5px !important;
 }
 
 #social-icons li a {
@@ -148,7 +148,7 @@ a:hover {
 
 .social-icon-popup h5 {
 	font-size: 1em;
-	margin: 0 0 2px;
+	margin: 0 0 3px;
 }
 
 .social-icon-popup p {

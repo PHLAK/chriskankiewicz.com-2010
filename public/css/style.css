@@ -116,11 +116,33 @@ a:hover {
 }
 
 #page-title {
+	font-size: 1.3em !important;
 	margin: 0 0 .5em;
 	border-bottom: 1px solid #000;
 }
 
+#content h2 {
+	font-size: 1.1em;
+	margin: 0 0 1em 0;
+}
+
+#content h3 {
+	font-size: 1em;
+	margin: 0 0 1em 0;
+}
+
+#content h4 {
+	font-size: .9em;
+	margin: 0 0 1em 0;
+}
+
+#content h5 {
+	font-size: .8em;
+	margin: 0 0 1em 0;
+}
+
 #chris-kankiewicz {
+	background-color: #FFF;
 	border: 1px solid #999;
 	border: 1px solid #CCCCCC;
 	display: inline-block;
@@ -282,4 +304,15 @@ a:hover {
 
 .text-right {
 	text-align: right;
+}
+
+div.hr {
+	background-color: #CCC;
+	border-bottom: 1px solid #F9F9F9;
+	height: 1px;
+	margin: 0.8em 0;
+}
+
+div.hr hr {
+	display: none;
 }

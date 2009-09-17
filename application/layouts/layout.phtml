@@ -30,11 +30,11 @@
 			<div class="width-constraint">
 				<div id="site-title"><a href="/"><img src="images/chris-kankiewicz-logo.png" alt="Chris Kankiewicz"/></a></div>
 				<ul id="site-navigation">
-					<li class="active"><a href="#" id="home" class="tab">Chris</a></li>
-					<li><a href="#" id="portfolio" class="tab">Portfolio</a></li>
-					<li><a href="#" id="resume" class="tab">Resume</a></li>
-					<li><a href="#" id="photography" class="tab">Photography</a></li>
-					<li><a href="#" id="contact" class="tab">Contact</a></li>
+					<li class="active"><a href="/" id="home" class="tab">Chris</a></li>
+					<li><a href="/portfolio" id="portfolio" class="tab">Portfolio</a></li>
+					<li><a href="/resume" id="resume" class="tab">Resume</a></li>
+					<li><a href="/phototography" id="photography" class="tab">Photography</a></li>
+					<li><a href="/contact" id="contact" class="tab">Contact</a></li>
 				</ul>
 			</div>
 		</div>
@@ -46,11 +46,13 @@
 					<?= $this->layout()->content; ?>
 				</div>
 				<div id="right-bar">
-					Right Bar<br/>
-					Right Bar<br/>
-					Right Bar<br/>
-					Right Bar<br/>
-					Right Bar<br/>
+					<div id="twitter-wrapper">
+						<h3>Chris's Tweets</h3>
+						<div id="tweets">
+							<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+							<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/PHLAK.json?callback=twitterCallback2&amp;count=5"></script>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

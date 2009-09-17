@@ -130,6 +130,33 @@ a:hover {
 	-moz-border-radius: 5px;
 }
 
+
+/* ----------------------- */
+/* -----| RIGHT BAR |----- */
+/* ----------------------- */
+
+#twitter-wrapper {
+	background-color: #0F67A1;
+	padding: 5px;
+	-moz-border-radius: 5px;
+}
+
+#twitter-wrapper h3 {
+	color: #FFF;
+	font-size: .9em;
+	margin: 0;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+#twitter-wrapper #tweets {
+	background-color: #DDF;
+	font-size: .75em;
+	padding: 5px;
+	-moz-border-radius: 3px;
+}
+
+
 /* -------------------- */
 /* -----| FOOTER |----- */
 /* -------------------- */

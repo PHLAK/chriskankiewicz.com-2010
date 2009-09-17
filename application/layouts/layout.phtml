@@ -30,11 +30,11 @@
 			<div class="width-constraint">
 				<div id="site-title"><a href="/"><img src="images/chris-kankiewicz-logo.png" alt="Chris Kankiewicz"/></a></div>
 				<ul id="site-navigation">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="#">Resume</a></li>
-					<li><a href="#">Photography</a></li>
-					<li><a href="#">Contact</a></li>
+					<li class="active"><a href="#" id="home" class="tab">Chris</a></li>
+					<li><a href="#" id="portfolio" class="tab">Portfolio</a></li>
+					<li><a href="#" id="resume" class="tab">Resume</a></li>
+					<li><a href="#" id="photography" class="tab">Photography</a></li>
+					<li><a href="#" id="contact" class="tab">Contact</a></li>
 				</ul>
 			</div>
 		</div>
@@ -42,8 +42,8 @@
 		<div id="content-wrapper" class="clearfix">
 			<div class="width-constraint">
 				<div id="content">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dolor tortor, rutrum tempus cursus dictum, adipiscing vel enim. Maecenas tempor sapien eget urna molestie non bibendum dolor egestas. Integer at metus lorem, ac condimentum metus. Sed eu feugiat neque. Nulla aliquet nisi eu lorem consequat in iaculis urna aliquet. Vivamus augue lacus, interdum eu porta vel, dapibus et magna. Integer a ipsum turpis. Fusce vulputate congue varius. Sed pellentesque tristique tincidunt. Praesent nisl neque, vehicula quis fringilla sed, convallis eget orci. Ut interdum eros ac metus tincidunt sit amet laoreet velit eleifend. Morbi accumsan mollis vulputate. Ut ultrices, est vel tristique dictum, nulla lorem fermentum arcu, non porta orci lacus quis dolor. Maecenas tempor dolor quis nisi tristique pulvinar ac at massa. Mauris ac arcu vitae augue malesuada posuere sit amet interdum risus. Suspendisse imperdiet porta nisi, non ultrices nulla tincidunt eu. Ut luctus imperdiet libero quis tincidunt. Nunc non ipsum faucibus ligula aliquam facilisis. Nam elit sem, iaculis nec suscipit ac, tincidunt non velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
-					<p>Proin vitae ipsum ac sem dictum cursus consectetur et ipsum. Phasellus et mi dui, vitae varius felis. Aenean vitae justo at urna porttitor mollis. Duis sodales faucibus ligula eget dapibus. Morbi tellus dui, mattis vitae iaculis at, fringilla sed neque. Vestibulum blandit porttitor metus quis pharetra. Aliquam auctor, felis vitae consequat bibendum, velit augue tincidunt turpis, id ullamcorper risus odio eu erat. Nam gravida, augue in venenatis varius, risus dolor viverra libero, sed malesuada nulla sem vel urna. Etiam at sapien lectus, ut mollis risus. Phasellus imperdiet interdum orci, et suscipit urna varius sit amet. Vivamus ut massa sed ligula semper semper. Nulla justo orci, volutpat in convallis sed, malesuada blandit magna.</p>
+					<h2 id="page-title"><?= $this->title; ?></h2>
+					<?= $this->layout()->content; ?>
 				</div>
 				<div id="right-bar">
 					Right Bar<br/>

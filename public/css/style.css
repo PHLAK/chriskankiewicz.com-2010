@@ -135,6 +135,18 @@ a:hover {
 /* -----| RIGHT BAR |----- */
 /* ----------------------- */
 
+/* --- STACK OVERFLOW --- */
+
+#stack-overflow-wrapper {
+	margin-bottom: .5em;
+}
+
+.valuable-flair {
+	width: 190px !important;
+}
+
+/* --- TWITTER --- */
+
 #twitter-wrapper {
 	background-color: #0F67A1;
 	padding: 5px;

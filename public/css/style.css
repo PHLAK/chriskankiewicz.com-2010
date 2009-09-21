@@ -255,9 +255,8 @@ a:hover {
 }
 
 .popup-top {
-	background-color: #FFC;
-	border: 1px solid #CC9;
-	color: #333;
+	background-color: #323232;
+	color: #FFF;
 	padding: 5px;
 	-moz-border-radius: 5px;
 }
@@ -265,8 +264,6 @@ a:hover {
 .popup-bottom {
 	background: transparent url(/images/popup-bg.gif) no-repeat center top;
 	height: 14px;
-	position: relative;
-	top: -1px;
 }
 
 .social-icon-popup h5 {

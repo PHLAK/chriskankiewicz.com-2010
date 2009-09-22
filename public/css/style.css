@@ -72,6 +72,8 @@ a:hover {
 	text-transform: uppercase;
 	-moz-border-radius-topleft: 5px;
 	-moz-border-radius-topright: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
 }
 
 #site-navigation .tab {
@@ -149,11 +151,13 @@ a:hover {
 	background-color: #FFF;
 	border: 1px solid #999;
 	border: 1px solid #CCCCCC;
+	border-radius: 5px;
 	display: inline-block;
 	margin-left: 10px;
 	margin-bottom: 10px;
 	padding: 5px;
 	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
 
@@ -175,8 +179,10 @@ a:hover {
 
 #twitter-wrapper {
 	background-color: #0F67A1;
+	border-radius: 5px;
 	padding: 5px;
 	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
 #twitter-wrapper h3 {
@@ -189,9 +195,11 @@ a:hover {
 
 #twitter-wrapper #tweets {
 	background-color: #DDF;
+	border-radius: 3px;
 	font-size: .75em;
 	padding: 5px;
 	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
 }
 
 #twitter_update_list {
@@ -235,6 +243,7 @@ a:hover {
 #social-icons li a {
 	background-color: #FFF;
 	border: 1px solid #999;
+	border-radius: 5px;
 	display: inline-block;
 	height: 50px;
 	padding: 5px;
@@ -242,6 +251,7 @@ a:hover {
 	text-decoration: none;
 	width: 50px;
 	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
 .social-icon-popup {
@@ -256,9 +266,11 @@ a:hover {
 
 .popup-top {
 	background-color: #323232;
+	border-radius: 5px;
 	color: #FFF;
-	padding: 5px;
+	padding: 8px;
 	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
 .popup-bottom {
@@ -269,11 +281,13 @@ a:hover {
 .social-icon-popup h5 {
 	font-size: 1em;
 	margin: 0 0 3px;
+	white-space: nowrap;
 }
 
 .social-icon-popup p {
 	font-size: .8em;
 	margin: 0;
+	white-space: nowrap;
 }
 
 #social-icons li a:hover .social-icon-popup {

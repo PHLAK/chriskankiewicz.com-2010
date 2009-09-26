@@ -13,7 +13,7 @@ body {
 }
 
 a {
-	color: #8B3;
+	color: #00C;
 	outline: none;
 }
 
@@ -26,7 +26,7 @@ a:hover {
 /* -------------------- */
 
 #header {
-	background-color: #8B3;
+	background: #232323 url(/images/bg.gif) repeat left top;
 	color: #FFF;
 	width: 100%;
 }
@@ -62,6 +62,7 @@ a:hover {
 }
 
 #site-navigation li a {
+	background-color: #9C3 !important;
 	color: #333;
 	float: left;
 	font-size: .8em;
@@ -81,23 +82,23 @@ a:hover {
 }
 
 #site-navigation #home {
-	background: #B6DA79 url(/images/icons/user_gray.png) no-repeat 9px center;
+	background: transparent url(/images/icons/user_gray.png) no-repeat 9px center;
 }
 
 #site-navigation #portfolio {
-	background: #B6DA79 url(/images/icons/book.png) no-repeat 9px center;
+	background: transparent url(/images/icons/book.png) no-repeat 9px center;
 }
 
 #site-navigation #resume {
-	background: #B6DA79 url(/images/icons/page_white_text.png) no-repeat 9px center;
+	background: transparent url(/images/icons/page_white_text.png) no-repeat 9px center;
 }
 
 #site-navigation #photography {
-	background: #B6DA79 url(/images/icons/images.png) no-repeat 9px center;
+	background: transparent url(/images/icons/images.png) no-repeat 9px center;
 }
 
 #site-navigation #contact {
-	background: #B6DA79 url(/images/icons/email.png) no-repeat 9px center;
+	background: transparent url(/images/icons/email.png) no-repeat 9px center;
 }
 
 #site-navigation li a:hover {
@@ -395,9 +396,13 @@ a:hover {
 }
 
 #footer-bottom {
-	background-color: #121212;
+	background-color: #232323;
 	color: #FFF;
 	font-size: .8em;
+}
+
+#footer-bottom a {
+	color: #FFF;
 }
 
 #footer-bottom p {

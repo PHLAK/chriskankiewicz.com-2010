@@ -30,11 +30,11 @@
 			<div class="width-constraint">
 				<div id="site-title"><a href="/"><img src="images/chris-kankiewicz-logo-small.png" alt="Chris Kankiewicz"/></a></div>
 				<ul id="site-navigation">
-					<li class="active"><a href="/" id="home" class="tab">Chris</a></li>
-					<li><a href="/portfolio" id="portfolio" class="tab">Portfolio</a></li>
-					<li><a href="/resume" id="resume" class="tab">Resume</a></li>
-					<li><a href="/photography" id="photography" class="tab">Photography</a></li>
-					<li><a href="/contact" id="contact" class="tab">Contact</a></li>
+					<li <? if(strtolower($this->title) == 'home'): ?> class="active" <? endif; ?>><a href="/" id="home" class="tab">Chris</a></li>
+					<li <? if(strtolower($this->title) == 'portfolio'): ?> class="active" <? endif; ?>><a href="/portfolio" id="portfolio" class="tab">Portfolio</a></li>
+					<li <? if(strtolower($this->title) == 'resume'): ?> class="active" <? endif; ?>><a href="/resume" id="resume" class="tab">Resume</a></li>
+					<li <? if(strtolower($this->title) == 'photography'): ?> class="active" <? endif; ?>><a href="/photography" id="photography" class="tab">Photography</a></li>
+					<li <? if(strtolower($this->title) == 'contact'): ?> class="active" <? endif; ?>><a href="/contact" id="contact" class="tab">Contact</a></li>
 				</ul>
 			</div>
 		</div>

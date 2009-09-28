@@ -1,16 +1,16 @@
-/***************************************************************************\
-|**********|                                                     |**********|
-|**********|    ChrisKankiewicz.com site structure stylesheet    |**********|
-|**********|  By, Chris Kankiewicz (http://ChrisKankiewicz.com)  |**********|
-|**********|                                                     |**********|
-\***************************************************************************/
+/****************************************************************\
+|**********|                                          |**********|
+|**********|    ChrisKankiewicz.com site structure    |**********|
+|**********|           By, Chris Kankiewicz           |**********|
+|**********|                                          |**********|
+\****************************************************************/
 
 /* --------------------- */
 /* -----| HEADER | ----- */
 /* --------------------- */
 
 #header {
-	height: 120px;
+	height: 80px;
 	margin: 0;
 }
 
@@ -53,14 +53,13 @@ body > #wrap {
 }
 
 #main {
-	padding-bottom: 107px;	/* Must be same height as the footer */
+	padding-bottom: 119px;	/* Must be same height as the footer */
 }
 
 #footer {
-	border-top: 1px solid #CCC;
 	clear:both;
-	height: 107px;
-	margin-top: -107px;		/* Negative value of footer height */
+	height: 119px;
+	margin-top: -119px;		/* Negative value of footer height */
 	position: relative;
 }
 
@@ -68,12 +67,11 @@ body > #wrap {
 
 #footer-top {
 	background-color: #FFF;
-	height: 62px;
-	padding: 10px 0;
+	height: 82px;
 }
 
 #footer-bottom {
-	height: 24px;
+	height: 36px;
 	text-align: center;
 }
 

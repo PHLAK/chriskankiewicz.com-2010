@@ -26,8 +26,8 @@ a:hover {
 /* -------------------- */
 
 #header {
-	background: #232323 url(/images/bg.gif) repeat left top;
-	color: #FFF;
+	background: #719c31 url(/images/header-bg.png) repeat-x top left;
+	border-bottom: 1px solid #323232;
 	width: 100%;
 }
 
@@ -49,11 +49,11 @@ a:hover {
 /* ------------------------ */
 
 #site-navigation {
-	bottom: 0;
+	bottom: -1px;
 	list-style: none;
 	margin: 0;
 	position: absolute;
-	left: 0;
+	right: 0;
 }
 
 #site-navigation li {
@@ -62,51 +62,35 @@ a:hover {
 }
 
 #site-navigation li a {
-	background-color: #9C3 !important;
-	color: #333;
+	background-color: #323232 !important;
+	border: 1px solid #323232;
+	color: #FFF;
 	float: left;
 	font-size: .8em;
 	font-weight: bold;
-	margin-right: 8px;
+	margin-left: 8px;
 	padding: 6px 9px 5px;
 	text-decoration: none;
 	text-transform: uppercase;
 	-moz-border-radius-topleft: 5px;
 	-moz-border-radius-topright: 5px;
-	-webkit-border-top-left-radius: 5px;
-	-webkit-border-top-right-radius: 5px;
-}
-
-#site-navigation .tab {
-	padding-left: 30px;
-}
-
-#site-navigation #home {
-	background: transparent url(/images/icons/user_gray.png) no-repeat 9px center;
-}
-
-#site-navigation #portfolio {
-	background: transparent url(/images/icons/book.png) no-repeat 9px center;
-}
-
-#site-navigation #resume {
-	background: transparent url(/images/icons/page_white_text.png) no-repeat 9px center;
-}
-
-#site-navigation #photography {
-	background: transparent url(/images/icons/images.png) no-repeat 9px center;
-}
-
-#site-navigation #contact {
-	background: transparent url(/images/icons/email.png) no-repeat 9px center;
+	-webkit-border-radius: 3px;
 }
 
 #site-navigation li a:hover {
-	background-color: #B6DA79 !important;
+	background-color: #369 !important;
 }
 
 #site-navigation li.active a {
 	background-color: #FFF !important;
+	border-bottom: 1px solid #FFF;
+	color: #323232;
+}
+
+#site-navigation li.active a:hover {
+	background-color: #FFF !important;
+	border-bottom: 1px solid #FFF;
+	color: #323232;
 }
 
 
@@ -115,7 +99,7 @@ a:hover {
 /* --------------------- */
 
 #content-wrapper {
-	margin: .5em 0;
+	padding: .5em 0;
 }
 
 #page-title {
@@ -312,6 +296,7 @@ a:hover {
 /* -------------------- */
 
 #footer-top {
+	border-top: 1px solid #CCC;
 	text-align: center;
 }
 
@@ -320,7 +305,7 @@ a:hover {
 #social-icons {
 	display: inline-block;
 	list-style: none;
-	margin: 0 auto;
+	margin: 10px auto;
 	padding: 0;
 	position: relative;
 	width: auto;
@@ -396,18 +381,18 @@ a:hover {
 }
 
 #footer-bottom {
-	background-color: #232323;
+	background-color: #323232;
 	color: #FFF;
 	font-size: .8em;
+	overflow: hidden;
 }
 
 #footer-bottom a {
 	color: #FFF;
 }
 
-#footer-bottom p {
-	margin: 0;
-	padding: 4px 0;
+#footer-bottom .left, #footer-bottom .right {
+	padding: .8em 0;
 }
 
 

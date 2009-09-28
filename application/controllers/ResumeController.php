@@ -10,7 +10,7 @@ class ResumeController extends Zend_Controller_Action
 
 	public function indexAction()
 	{
-		$this->view->title = "Resume";
+		$this->view->title = 'Resume';
 	}
 
 

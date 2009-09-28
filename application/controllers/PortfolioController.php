@@ -10,7 +10,7 @@ class PortfolioController extends Zend_Controller_Action
 
 	public function indexAction()
 	{
-		$this->view->title = "Portfolio";
+		$this->view->title = 'Portfolio';
 	}
 
 

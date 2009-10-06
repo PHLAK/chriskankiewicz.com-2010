@@ -2,7 +2,6 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">
 
-
 <head>
 	<title><?= $this->title; ?> | Chris Kankiewicz - Web Design, Graphic Design, Code</title>
 	<link rel="shortcut icon" href="/images/icons/favicon.png" />
@@ -11,6 +10,9 @@
 	<link rel="stylesheet" type="text/css" href="/css/structure.css" />
 	<link rel="stylesheet" type="text/css" href="/css/thickbox.css" />
 	<link rel="stylesheet" type="text/css" href="/css/style.css" />
+	<? if($this->css): ?>
+		<link rel="stylesheet" type="text/css" href="<?= $this->css; ?>" />
+	<? endif; ?>
 	<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/css/ie8.css" /><![endif]-->
 	<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="/css/ie7.css" /><![endif]-->
 	<!--[if lte IE 6]><link rel="stylesheet" type="text/css" href="/css/ie6.css" /><![endif]-->

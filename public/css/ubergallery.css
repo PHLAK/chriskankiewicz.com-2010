@@ -1,0 +1,124 @@
+/***************
+*  CK-GALLERY  *
+***************/
+
+#gallery-wrapper {
+	width: 100%; /* Leave this value, change width below */
+}
+
+#ubergallery {
+	margin: 0 auto;
+	width: 732px; /* Change gallery width here */
+}
+
+#ubergallery img {
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	float: left;
+	margin: 5px !important;
+	padding: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#ubergallery img:hover {
+	border: 1px solid #000;
+}
+
+#ubergallery div.hr { /* IE hack */
+	background-color: #CCC;
+	border: 0;
+	height: 1px;
+	margin: .5em 0 .2em;
+}
+
+#ubergallery div.hr hr { /* IE hack */
+	display: none;
+}
+
+#credit {
+	color: #999;
+	float: right;
+	font-size: .8em;
+}
+
+#uber-notice {
+	background-color: #AAA;
+	border: 1px solid #323232;
+	font-size: .8em;
+	padding: 5px;
+	margin: 5px 0;
+	text-align: center;
+}
+
+.clear {
+	height: 0px !important;
+	clear: both;
+}
+
+/***************
+*  PAGINATION  *
+***************/
+
+#uber-pagination {
+	float: left;
+	font-size: .8em;
+	margin: 0 !important;
+	padding: 0 !important;
+	text-align: center;
+}
+
+#uber-pagination li {
+	background-color: #FFF;
+	border: 1px solid #FFF;
+	border-radius: 3px;
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0 5px 0 0 !important;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+#uber-pagination li:hover {
+	background-color: #EFEFEF;
+	border: 1px solid #CCC;
+}
+
+#uber-pagination li a, 
+#uber-pagination li.title,
+#uber-pagination li.inactive,
+#uber-pagination li.current-page {
+	padding: 3px 6px;
+}
+
+#uber-pagination li a {
+	color: #00C;
+	display: block;
+	text-decoration: none;
+}
+
+#uber-pagination li.current-page {
+	background-color: #FFF;
+	border: 1px solid #FFF;
+	color: #333;
+	font-weight: bold;
+}
+
+#uber-pagination li.title {
+	background-color: #EFEFEF;
+	border: 1px solid #CCC;
+	color: #333;
+	display: block;
+	font-weight: bold;
+}
+
+#uber-pagination li.inactive {
+	background-color: #FFF;
+	border: 1px solid #FFF;
+	color: #CCC;
+	display: block;
+}
+
+/* gallery.css Created by, Chris Kankiewicz <http://www.UberGallery.net> */

@@ -50,6 +50,9 @@ a:hover {
 /* ---------------------------------------- */
 
 #site-navigation {
+	border: 1px solid #CCC;
+	border-right: none;
+	display: inline-block;
 	list-style: none;
 	margin: 0 0 10px;
 }
@@ -62,8 +65,8 @@ a:hover {
 
 #site-navigation li a {
 	background: #CCC url(/images/silver-gradient.png) repeat-x center center;
-	border: 1px solid #BBB;
-	border-right: none;
+	border-left:1px solid #FFF;
+	border-right:1px solid #DEDEDE;
 	color: #333;
 	float: left;
 	font-size: .75em;
@@ -71,16 +74,6 @@ a:hover {
 	text-decoration: none;
 }
 
-#site-navigation li a.first {
-	-moz-border-radius-topleft: 3px;
-	-moz-border-radius-bottomleft: 3px;
-}
-
-#site-navigation li a.last {
-	border-right: 1px solid #BBB;
-	-moz-border-radius-topright: 3px;
-	-moz-border-radius-bottomright: 3px;
-}
 
 #site-navigation li a:hover {
 	/* NULL */

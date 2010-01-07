@@ -1,6 +1,6 @@
-/* --------------------- */
-/* -----| GENERAL |----- */
-/* --------------------- */
+/* ---------------------------------------- */
+/* -----| GENERAL | ----------------------- */
+/* ---------------------------------------- */
 
 html {
 	font-size: 100%;
@@ -21,12 +21,13 @@ a:hover {
 	/* color: #333; */
 }
 
-/* -------------------- */
-/* -----| HEADER |----- */
-/* -------------------- */
+/* ---------------------------------------- */
+/* -----| HEADER | ------------------------ */
+/* ---------------------------------------- */
 
 #header {
-	background: #719c31 url(/images/header-bg.png) repeat-x top left;
+	background:#719C31 url(/images/header-bg.png) repeat-x scroll left top;
+	/* background: #242424 url(/images/black-gradient.png) repeat-x top left; */
 	border-bottom: 1px solid #323232;
 	width: 100%;
 }
@@ -37,72 +38,90 @@ a:hover {
 	font-size: 2.5em;
 	font-weight: bold;
 	margin: 0;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 #site-title a {
 	display: inline-block;
 }
 
-/* ------------------------ */
-/* -----| NAVIGATION |----- */
-/* ------------------------ */
+/* ---------------------------------------- */
+/* -----| NAVIGATION | -------------------- */
+/* ---------------------------------------- */
 
 #site-navigation {
-	bottom: -1px;
 	list-style: none;
 	margin: 0;
-	position: absolute;
-	right: 0;
 }
 
 #site-navigation li {
-	display: inline;
+	display: inline-block;
+	float: left;
   	margin: 0;
 }
 
 #site-navigation li a {
-	background-color: #323232 !important;
-	border: 1px solid #323232;
-	border-top-left-radius: 5px;
-	border-top-left-radius: 5px;
-	color: #FFF;
+	background: #CCC url(/images/silver-gradient.png) repeat-x center center;
+	border: 1px solid #BBB;
+	border-right: none;
+	color: #333;
 	float: left;
-	font-size: .8em;
-	font-weight: bold;
-	margin-left: 8px;
-	padding: 6px 9px 5px;
+	font-size: .75em;
+	padding: 4px 6px;
 	text-decoration: none;
-	text-transform: uppercase;
-	-moz-border-radius-topleft: 5px;
-	-moz-border-radius-topright: 5px;
-	-webkit-border-top-left-radius: 5px;
-	-webkit-border-top-left-radius: 5px;
+}
+
+#site-navigation li a.first {
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-bottomleft: 3px;
+}
+
+#site-navigation li a.last {
+	border-right: 1px solid #BBB;
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-bottomright: 3px;
 }
 
 #site-navigation li a:hover {
-	background-color: #369 !important;
+	/* NULL */
 }
 
 #site-navigation li.active a {
-	background-color: #FFF !important;
-	border-bottom: 1px solid #FFF;
 	color: #323232;
+	font-weight: bold;
 }
 
 #site-navigation li.active a:hover {
 	background-color: #FFF !important;
-	border-bottom: 1px solid #FFF;
 	color: #323232;
 }
 
 
-/* --------------------- */
-/* -----| CONTENT |----- */
-/* --------------------- */
+/* ---------------------------------------- */
+/* -----| CONTENT | ----------------------- */
+/* ---------------------------------------- */
 
 #content-wrapper {
-	padding: .5em 0;
+	margin: 0 auto -10px;
+	padding: 5px;
+	position: relative;
+	top: -25px;	
+	width: 750px;
+}
+
+#content-top {
+	background: transparent url(/images/content-bg-top.png) no-repeat center top;
+	height: 15px;
+}
+
+#content-main {
+	background: transparent url(/images/content-bg-middle.png) repeat-y center top;
+	padding: 0 15px 1em;
+}
+
+#content-bottom {
+	background: transparent url(/images/content-bg-bottom.png) no-repeat center bottom;
+	height: 15px;
 }
 
 #page-title {
@@ -149,9 +168,9 @@ a:hover {
 }
 
 
-/* -------------------- */
-/* -----| RESUME |----- */
-/* -------------------- */
+/* ---------------------------------------- */
+/* -----| RESUME | ------------------------ */
+/* ---------------------------------------- */
 
 #resume table {
 	margin-bottom: .8em;
@@ -240,21 +259,9 @@ a:hover {
 }
 
 
-/* ----------------------- */
-/* -----| RIGHT BAR |----- */
-/* ----------------------- */
-
-/* --- STACK OVERFLOW --- */
-
-#stack-overflow-wrapper {
-	margin-bottom: .5em;
-}
-
-.valuable-flair {
-	width: 190px !important;
-}
-
-/* --- TWITTER --- */
+/* ---------------------------------------- */
+/* -----| TWITTER | ----------------------- */
+/* ---------------------------------------- */
 
 #twitter-wrapper {
 	background-color: #0F67A1;
@@ -294,9 +301,9 @@ a:hover {
 }
 
 
-/* -------------------- */
-/* -----| FOOTER |----- */
-/* -------------------- */
+/* ---------------------------------------- */
+/* -----| FOOTER | ------------------------ */
+/* ---------------------------------------- */
 
 #footer-top {
 	border-top: 1px solid #CCC;
@@ -399,9 +406,9 @@ a:hover {
 }
 
 
-/* --------------------------- */
-/* -----| MISCELLANEOUS |----- */
-/* --------------------------- */
+/* ---------------------------------------- */
+/* -----| MISCELLANEOUS | ----------------- */
+/* ---------------------------------------- */
 
 .left {
 	float: left;

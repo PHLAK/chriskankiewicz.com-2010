@@ -26,9 +26,9 @@ a:hover {
 /* ---------------------------------------- */
 
 #header {
-	background:#719C31 url(/images/header-bg.png) repeat-x scroll left top;
-	/* background: #242424 url(/images/black-gradient.png) repeat-x top left; */
-	border-bottom: 1px solid #323232;
+	/* background:#719C31 url(/images/header-bg.png) repeat-x scroll left top; */
+	background: #242424 url(/images/black-gradient.png) repeat-x top left;
+	border-bottom: 1px solid #121212;
 	width: 100%;
 }
 
@@ -391,7 +391,7 @@ a:hover {
 }
 
 #footer-bottom {
-	background-color: #323232;
+	background: #242424 url(/images/black-gradient.png) repeat-x top left;
 	color: #FFF;
 	font-size: .8em;
 	overflow: hidden;

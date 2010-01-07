@@ -393,7 +393,7 @@ a:hover {
 #footer-bottom {
 	background: #242424 url(/images/black-gradient.png) repeat-x top left;
 	color: #FFF;
-	font-size: .8em;
+	font-size: .75em;
 	overflow: hidden;
 }
 
@@ -402,7 +402,7 @@ a:hover {
 }
 
 #footer-bottom .left, #footer-bottom .right {
-	padding: .8em 0;
+	padding: .9em 0;
 }
 
 

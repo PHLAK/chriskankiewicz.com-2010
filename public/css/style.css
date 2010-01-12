@@ -147,13 +147,20 @@ a:hover {
 	line-height: 1.3em;
 }
 
+#home-content .left {
+	width: 475px;
+}
+
+#home-content .right {
+	width: 235px;
+}
+
 #chris-kankiewicz {
 	background-color: #FFF;
 	border: 1px solid #999;
 	border: 1px solid #CCCCCC;
 	border-radius: 5px;
 	display: inline-block;
-	margin-left: 10px;
 	margin-bottom: 10px;
 	padding: 5px;
 	-moz-border-radius: 5px;

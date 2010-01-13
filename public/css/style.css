@@ -27,7 +27,7 @@ a:hover {
 
 #header {
 	/* background:#719C31 url(/images/header-bg.png) repeat-x scroll left top; */
-	background: #242424 url(/images/black-gradient.png) repeat-x top left;
+	background: #242424 url(/images/header-bg.png) repeat-x top left;
 	border-bottom: 1px solid #121212;
 	width: 100%;
 }
@@ -38,7 +38,7 @@ a:hover {
 	font-size: 2.5em;
 	font-weight: normal;
 	margin: 0;
-	margin-top: 10px;
+	margin-top: 5px;
 }
 
 #site-title a {
@@ -100,7 +100,7 @@ a:hover {
 	margin: 0 auto -10px;
 	padding: 5px;
 	position: relative;
-	top: -25px;	
+	top: -33px;	
 	width: 750px;
 }
 

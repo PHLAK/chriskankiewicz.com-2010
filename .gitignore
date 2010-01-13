@@ -3,3 +3,6 @@
 
 # Ignore gallery
 public/ubergallery/
+
+# Miscellaneous
+public/gallery/

@@ -302,6 +302,12 @@ a:hover {
 	padding: 5px 0 !important;
 }
 
+#twitter_update_list li > a {
+	display: block;
+	color: #646464;
+	margin-top: 3px;
+}
+
 
 /* ---------------------------------------- */
 /* -----| FOOTER | ------------------------ */

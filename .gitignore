@@ -1,8 +1,15 @@
 # Ignore .htaccess files
+########################################
 .htaccess
 
-# Ignore gallery
-public/ubergallery/
 
-# Miscellaneous
-public/gallery/
+# Ignore unneeded gallery files
+########################################
+public/gallery/ubergallery/log.txt
+public/gallery/ubergallery/cache/*.html
+public/gallery/ubergallery/cache/*.jpg
+public/gallery/ubergallery/cache/*.png
+public/gallery/ubergallery/cache/*.gif
+public/gallery/ubergallery/images/*.jpg
+public/gallery/ubergallery/images/*.png
+public/gallery/ubergallery/images/*.gif

@@ -7,6 +7,7 @@ class PhotographyController extends Zend_Controller_Action
 	{
 		$this->view->css 	= array();
 		$this->view->layout = array();
+		$this->view->js 	= array();
 	}
 
 	public function indexAction()

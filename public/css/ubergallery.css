@@ -17,7 +17,8 @@
 
 #gallery-images {
   background-color: #FFF;
-  padding: 10px;
+  margin-bottom: .5em;
+  padding: 0;
 }
 
 #gallery-images a {
@@ -26,7 +27,7 @@
   border-radius: 3px;
   display: block;
   float: left;
-  margin: 3px !important;
+  margin: 5px !important;
   padding: 4px;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;

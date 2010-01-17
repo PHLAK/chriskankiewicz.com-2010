@@ -368,6 +368,7 @@ a:hover {
 	background-color: #323232;
 	border-radius: 5px;
 	color: #FFF;
+	display: block;
 	padding: 8px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -375,16 +376,19 @@ a:hover {
 
 .popup-bottom {
 	background: transparent url(/images/popup-bg.gif) no-repeat center top;
+	display: block;
 	height: 14px;
 }
 
-.social-icon-popup h5 {
+.social-icon-popup .popup-title {
+	display: block;
 	font-size: 1em;
 	margin: 0 0 3px;
 	white-space: nowrap;
 }
 
-.social-icon-popup p {
+.social-icon-popup .popup-text {
+	display: block;
 	font-size: .8em;
 	margin: 0;
 	white-space: nowrap;

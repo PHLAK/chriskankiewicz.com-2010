@@ -438,6 +438,7 @@ a:hover {
 .popup-bottom {
 	background: transparent url(/images/popup-bg.gif) no-repeat center top;
 	display: block;
+	font-size: 1px;
 	height: 14px;
 }
 

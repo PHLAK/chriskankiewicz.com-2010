@@ -56,12 +56,16 @@ a:hover {
 /* -----| NAVIGATION |--------------------- */
 /* ---------------------------------------- */
 
+#nav-wrapper {
+	margin: 0 0 10px;
+}
+
 #site-navigation {
 	border: 1px solid #CCC;
 	border-right: none;
 	display: inline-block;
 	list-style: none;
-	margin: 0 0 10px;
+	margin: 0;
 }
 
 #site-navigation li {
@@ -389,8 +393,9 @@ a:hover {
 #social-icons {
 	display: inline-block;
 	list-style: none;
-	margin: 10px auto;
-	padding: 0;
+	height: 16px;
+	margin: 0;
+	padding: 4px 0;
 	position: relative;
 	width: auto;
 }
@@ -398,60 +403,54 @@ a:hover {
 #social-icons li {
 	float: left;
 	list-style: none;
-	margin: 0 5px !important;
+	margin: 0 3px !important;
 }
 
 #social-icons li a {
-	background-color: #FFF;
-	border: 1px solid #999;
-	border-radius: 5px;
 	display: inline-block;
-	height: 50px;
-	padding: 5px;
+	height: 16px;
 	position: relative;
 	text-decoration: none;
-	width: 50px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
+	width: 16px;
 }
 
 .social-icon-popup {
-	bottom: 55px;
+	top: 100%;
 	display: none;
 	left: 50%;
-	margin-left: -120px;
+	margin-left: -100px;
 	position: absolute;
 	text-align: center;
-	width: 240px;
+	width: 200px;
 }
 
 .popup-top {
+	background: transparent url(/images/popup-bg.gif) no-repeat center top;
+	display: block;
+	font-size: 1px;
+	height: 7px;
+}
+
+.popup-bottom {
 	background-color: #323232;
 	border-radius: 5px;
 	color: #FFF;
 	display: block;
-	padding: 8px;
+	padding: 4px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 }
 
-.popup-bottom {
-	background: transparent url(/images/popup-bg.gif) no-repeat center top;
-	display: block;
-	font-size: 1px;
-	height: 14px;
-}
-
 .social-icon-popup .popup-title {
 	display: block;
-	font-size: 1em;
+	font-size: .9em;
 	margin: 0 0 3px;
 	white-space: nowrap;
 }
 
 .social-icon-popup .popup-text {
 	display: block;
-	font-size: .8em;
+	font-size: .7em;
 	margin: 0;
 	white-space: nowrap;
 }

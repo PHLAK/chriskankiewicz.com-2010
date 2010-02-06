@@ -43,21 +43,13 @@
 
 #uber-footer {
   border-top: 1px solid #333;
-  color: #369;
 }
 
 #credit {
+	color: #999;
   float: right;
   font-size: .8em;
   margin: 4px 0;
-}
-
-#credit a {
-  color: #369;
-}
-
-#credit a:hover {
-  color: #333;
 }
 
 #uber-notice {

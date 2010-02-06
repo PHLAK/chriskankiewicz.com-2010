@@ -13,7 +13,7 @@ body {
 }
 
 a {
-	color: #00C;
+	color: #9C3;
 	outline: none;
 }
 
@@ -183,14 +183,6 @@ a:hover {
 /* -----| BLOG |--------------------------- */
 /* ---------------------------------------- */
 
-#tumblr-credit {
-	border-top: 1px solid #333;
-	color: #999;
-	font-size: .9em;
-	padding: 3px 0;
-	text-align: right;
-}
-
 .tumblr_posts {
 	margin: 0;
 }
@@ -198,7 +190,7 @@ a:hover {
 .tumblr_post {
 	border-bottom: 1px solid #333;
 	list-style: none;
-	padding: 10px 0;
+	padding: 1em 0;
 }
 
 .tumblr_title {
@@ -224,8 +216,15 @@ a:hover {
 
 .tumblr_photo_post img {
 	background-color: #FFF;
-	border: 1px solid #333;
+	border: 1px solid #CCC;
 	padding: 5px;
+}
+
+#tumblr-credit {
+	color: #999;
+	font-size: .9em;
+	padding: 3px 0;
+	text-align: right;
 }
 
 
@@ -330,7 +329,6 @@ a:hover {
 }
 
 
-
 /* ---------------------------------------- */
 /* -----| TWITTER |------------------------ */
 /* ---------------------------------------- */
@@ -388,7 +386,10 @@ a:hover {
 	text-align: center;
 }
 
-/* --- ICONS --- */
+
+/* ---------------------------------------- */
+/* -----| SOCIAL ICONS |------------------- */
+/* ---------------------------------------- */
 
 #social-icons {
 	display: inline-block;
@@ -436,7 +437,7 @@ a:hover {
 	border-radius: 5px;
 	color: #FFF;
 	display: block;
-	padding: 4px;
+	padding: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 }

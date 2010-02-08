@@ -106,7 +106,7 @@ a:hover {
 /* ---------------------------------------- */
 
 #content-wrapper {
-	margin: 0 auto -10px;
+	margin: 0 auto -20px;
 	padding: 5px;
 	position: relative;
 	top: -33px;	
@@ -419,10 +419,10 @@ a:hover {
 	top: 100%;
 	display: none;
 	left: 50%;
-	margin-left: -100px;
+	margin-left: -65px;
 	position: absolute;
 	text-align: center;
-	width: 200px;
+	width: 130px;
 }
 
 .popup-top {
@@ -437,23 +437,11 @@ a:hover {
 	border-radius: 5px;
 	color: #FFF;
 	display: block;
-	padding: 5px;
+	font-size: .9em;
+	padding: 7px;
+	white-space: nowrap;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-}
-
-.social-icon-popup .popup-title {
-	display: block;
-	font-size: .9em;
-	margin: 0 0 3px;
-	white-space: nowrap;
-}
-
-.social-icon-popup .popup-text {
-	display: block;
-	font-size: .7em;
-	margin: 0;
-	white-space: nowrap;
 }
 
 #social-icons li a:hover .social-icon-popup {

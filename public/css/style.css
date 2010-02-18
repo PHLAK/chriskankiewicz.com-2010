@@ -63,6 +63,7 @@ a:hover {
 	-moz-border-radius: 10px;
 	-moz-box-shadow: 0 0 10px #323232;
 	-webkit-border-radius: 10px;
+	-webkit-box-shadow: 0 0 7px #323232;
 }
 
 
@@ -113,9 +114,13 @@ a:hover {
 
 #site-navigation li.active a {
 	background-color: #FFF;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
 	color: #323232;
 	-moz-border-radius-topleft: 3px;
 	-moz-border-radius-topright: 3px;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
 }
 
 #site-navigation li.active a:hover {
@@ -430,6 +435,7 @@ a:hover {
 	-moz-border-radius: 4px;
 	-moz-box-shadow: 1px 1px 4px #555;
 	-webkit-border-radius: 4px;
+	-webkit-box-shadow: 1px 1px 4px #555;
 }
 
 .popup-bottom {

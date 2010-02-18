@@ -7,6 +7,7 @@ html {
 }
 
 body {
+	background:#719C31 url(/images/green-bg.png) repeat-x scroll left top;
 	color: #333;
 	font-family: Sans-serif, Verdana, Tahoma, Arial, Helvetica, Sans;
 	font-size: 1em;
@@ -21,15 +22,21 @@ a:hover {
 	/* color: #333; */
 }
 
+
+
+#wrapper {
+	margin: 0 auto;
+	position: relative;
+	width: 760px;
+}
+
+
 /* ---------------------------------------- */
 /* -----| HEADER |------------------------- */
 /* ---------------------------------------- */
 
 #header {
-	/* background:#719C31 url(/images/header-bg.png) repeat-x scroll left top; */
-	background: #242424 url(/images/header-bg.png) repeat-x top left;
-	border-bottom: 1px solid #121212;
-	width: 100%;
+	margin: 0;
 }
 
 #site-title {
@@ -37,8 +44,7 @@ a:hover {
 	font-family: Sans;
 	font-size: 2.5em;
 	font-weight: normal;
-	margin: 0;
-	margin-top: 5px;
+	margin: 5px 0;
 }
 
 #site-title a {
@@ -48,16 +54,33 @@ a:hover {
 }
 
 #site-tag {
-	color: #FFF;
+	color: #F90;
 	margin-top: 1.2em;
 }
+
+#content-wrapper {
+	background-color: #FFF;
+	border-radius: 10px;
+	margin: 0 auto;
+	-moz-border-radius: 10px;
+	-moz-box-shadow: 0 0 10px #323232;
+	-webkit-border-radius: 10px;
+}
+
 
 /* ---------------------------------------- */
 /* -----| NAVIGATION |--------------------- */
 /* ---------------------------------------- */
 
 #nav-wrapper {
-	margin: 0 0 10px;
+	background: #050505 url(/images/header-bg.png) repeat-x left -10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding: 15px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
 }
 
 #site-navigation {
@@ -105,27 +128,8 @@ a:hover {
 /* -----| CONTENT |------------------------ */
 /* ---------------------------------------- */
 
-#content-wrapper {
-	margin: 0 auto -20px;
-	padding: 5px;
-	position: relative;
-	top: -33px;	
-	width: 750px;
-}
-
-#content-top {
-	background: transparent url(/images/content-bg-top.png) no-repeat center top;
-	height: 15px;
-}
-
 #content-main {
-	background: transparent url(/images/content-bg-middle.png) repeat-y center top;
-	padding: 0 15px 1em;
-}
-
-#content-bottom {
-	background: transparent url(/images/content-bg-bottom.png) no-repeat center bottom;
-	height: 15px;
+	padding: 15px;
 }
 
 #page-title {
@@ -481,8 +485,6 @@ a:hover {
 	color: #9C3;
 }
 
-
-
 .gray {
 	color: #999;
 }
@@ -511,3 +513,16 @@ div.hr {
 div.hr hr {
 	display: none;
 }
+
+/* --- CLEAR FIX --- */
+
+.clearfix:after {content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */

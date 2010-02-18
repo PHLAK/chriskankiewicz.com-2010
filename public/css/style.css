@@ -22,9 +22,7 @@ a:hover {
 	/* color: #333; */
 }
 
-
-
-#wrapper {
+#wrap {
 	margin: 0 auto;
 	position: relative;
 	width: 760px;
@@ -384,16 +382,6 @@ a:hover {
 
 
 /* ---------------------------------------- */
-/* -----| FOOTER |------------------------- */
-/* ---------------------------------------- */
-
-#footer-top {
-	border-top: 1px solid #CCC;
-	text-align: center;
-}
-
-
-/* ---------------------------------------- */
 /* -----| SOCIAL ICONS |------------------- */
 /* ---------------------------------------- */
 
@@ -465,19 +453,19 @@ a:hover {
 	position: absolute;
 }
 
-#footer-bottom {
-	background: #242424 url(/images/black-gradient.png) repeat-x top left;
-	color: #FFF;
+
+/* ---------------------------------------- */
+/* -----| FOOTER |------------------------- */
+/* ---------------------------------------- */
+
+
+#footer {
+	color: #333;
 	font-size: .75em;
-	overflow: hidden;
 }
 
-#footer-bottom a {
-	color: #FFF;
-}
-
-#footer-bottom .left, #footer-bottom .right {
-	padding: .9em 0;
+#footer .left, #footer .right {
+	padding: 5px 15px;
 }
 
 

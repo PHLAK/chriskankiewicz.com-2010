@@ -27,126 +27,121 @@
 
 <div id="wrap" class="clearfix">
 
-	<div id="wrapper" class="clearfix">
-		<div id="header" class="clearfix">
-			<div id="site-title" class="left"><a href="/">Chris Kankiewicz</a></div>
-			<div id="site-tag" class="right">Web Design, Graphic Design, Code</div>
+	<div id="header" class="clearfix">
+		<div id="site-title" class="left"><a href="/">Chris Kankiewicz</a></div>
+		<div id="site-tag" class="right">Web Design, Graphic Design, Code</div>
+	</div>
+
+	<div id="content-wrapper">
+		<div id="nav-wrapper" class="clearfix">
+			<ul id="site-navigation" class="clearfix left">
+				<li <? if(strtolower($this->title) == 'home'): ?> class="active" <? endif; ?>><a href="/" id="home" class="first">Chris</a></li>
+				<li <? if(strtolower($this->title) == 'blog'): ?> class="active" <? endif; ?>><a href="/blog" id="blog">Blog</a></li>
+				<li <? if(strtolower($this->title) == 'portfolio'): ?> class="active" <? endif; ?>><a href="/portfolio" id="portfolio">Portfolio</a></li>
+				<li <? if(strtolower($this->title) == 'resume'): ?> class="active" <? endif; ?>><a href="/resume" id="resume">Resume</a></li>
+				<li <? if(strtolower($this->title) == 'photography'): ?> class="active" <? endif; ?>><a href="/photography" id="photography">Photography</a></li>
+				<li <? if(strtolower($this->title) == 'contact'): ?> class="active" <? endif; ?>><a href="/contact" id="contact" class="last">Contact</a></li>
+			</ul>
+			<ul id="social-icons" class="clearfix right">
+				<li>
+					<a href="http://github.com/PHLAK">
+						<img src="images/social_icons/github_24.png" alt="GitHub"/>
+						<span class="social-icon-popup">
+							<span class="popup-top">GitHub</span>
+							<span class="popup-bottom">&nbsp;</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="http://stackoverflow.com/users/27025">
+						<img src="images/social_icons/stackoverflow_24.png" alt="Stack Overflow"/>
+						<span class="social-icon-popup">
+							<span class="popup-top">Stack Overflow</span>
+							<span class="popup-bottom">&nbsp;</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="http://twitter.com/PHLAK">
+						<img src="images/social_icons/twitter_24.png" alt="Twitter" />
+						<span class="social-icon-popup">
+							<span class="popup-top">Twitter</span>
+							<span class="popup-bottom">&nbsp;</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="http://digg.com/users/PHLAK">
+						<img src="images/social_icons/digg_24.png" alt="Digg" />
+						<span class="social-icon-popup">
+							<span class="popup-top">Digg</span>
+							<span class="popup-bottom">&nbsp;</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="http://picasaweb.google.com/CKankiewicz">
+						<img src="images/social_icons/picasa_24.png" alt="Picasa" />
+						<span class="social-icon-popup">
+							<span class="popup-top">Picasa</span>
+							<span class="popup-bottom">&nbsp;</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="http://www.hulu.com/profiles/phlak">
+						<img src="images/social_icons/hulu_24.png" alt="Hulu" />
+						<span class="social-icon-popup">
+							<span class="popup-top">Hulu</span>
+							<span class="popup-bottom">&nbsp;</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="http://steamcommunity.com/id/PHLAK">
+						<img src="images/social_icons/steam_24.png" alt="Steam Community"/>
+						<span class="social-icon-popup">
+							<span class="popup-top">Steam Community</span>
+							<span class="popup-bottom">&nbsp;</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="http://www.yelp.com/user_details?userid=mf7P63CCF-tQOv67XRlvpw">
+						<img src="images/social_icons/yelp_24.png" alt="Yelp" />
+						<span class="social-icon-popup">
+							<span class="popup-top">Yelp</span>
+							<span class="popup-bottom">&nbsp;</span>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="http://www.facebook.com/ckankiewicz" title="Facebook">
+						<img src="images/social_icons/facebook_24.png" alt="Facebook" />
+						<span class="social-icon-popup">
+							<span class="popup-top">Facebook</span>
+							<span class="popup-bottom">&nbsp;</span>
+						</span>
+					</a>
+				</li>
+			</ul>
 		</div>
-		<div id="content-wrapper">
-			<div id="nav-wrapper" class="clearfix">
-				<ul id="site-navigation" class="clearfix left">
-					<li <? if(strtolower($this->title) == 'home'): ?> class="active" <? endif; ?>><a href="/" id="home" class="first">Chris</a></li>
-					<li <? if(strtolower($this->title) == 'blog'): ?> class="active" <? endif; ?>><a href="/blog" id="blog">Blog</a></li>
-					<li <? if(strtolower($this->title) == 'portfolio'): ?> class="active" <? endif; ?>><a href="/portfolio" id="portfolio">Portfolio</a></li>
-					<li <? if(strtolower($this->title) == 'resume'): ?> class="active" <? endif; ?>><a href="/resume" id="resume">Resume</a></li>
-					<li <? if(strtolower($this->title) == 'photography'): ?> class="active" <? endif; ?>><a href="/photography" id="photography">Photography</a></li>
-					<li <? if(strtolower($this->title) == 'contact'): ?> class="active" <? endif; ?>><a href="/contact" id="contact" class="last">Contact</a></li>
-				</ul>
-				<ul id="social-icons" class="clearfix right">
-					<li>
-						<a href="http://github.com/PHLAK">
-							<img src="images/social_icons/github_24.png" alt="GitHub"/>
-							<span class="social-icon-popup">
-								<span class="popup-top">GitHub</span>
-								<span class="popup-bottom">&nbsp;</span>
-							</span>
-						</a>
-					</li>
-					<li>
-						<a href="http://stackoverflow.com/users/27025">
-							<img src="images/social_icons/stackoverflow_24.png" alt="Stack Overflow"/>
-							<span class="social-icon-popup">
-								<span class="popup-top">Stack Overflow</span>
-								<span class="popup-bottom">&nbsp;</span>
-							</span>
-						</a>
-					</li>
-					<li>
-						<a href="http://twitter.com/PHLAK">
-							<img src="images/social_icons/twitter_24.png" alt="Twitter" />
-							<span class="social-icon-popup">
-								<span class="popup-top">Twitter</span>
-								<span class="popup-bottom">&nbsp;</span>
-							</span>
-						</a>
-					</li>
-					<li>
-						<a href="http://digg.com/users/PHLAK">
-							<img src="images/social_icons/digg_24.png" alt="Digg" />
-							<span class="social-icon-popup">
-								<span class="popup-top">Digg</span>
-								<span class="popup-bottom">&nbsp;</span>
-							</span>
-						</a>
-					</li>
-					<li>
-						<a href="http://picasaweb.google.com/CKankiewicz">
-							<img src="images/social_icons/picasa_24.png" alt="Picasa" />
-							<span class="social-icon-popup">
-								<span class="popup-top">Picasa</span>
-								<span class="popup-bottom">&nbsp;</span>
-							</span>
-						</a>
-					</li>
-					<li>
-						<a href="http://www.hulu.com/profiles/phlak">
-							<img src="images/social_icons/hulu_24.png" alt="Hulu" />
-							<span class="social-icon-popup">
-								<span class="popup-top">Hulu</span>
-								<span class="popup-bottom">&nbsp;</span>
-							</span>
-						</a>
-					</li>
-					<li>
-						<a href="http://steamcommunity.com/id/PHLAK">
-							<img src="images/social_icons/steam_24.png" alt="Steam Community"/>
-							<span class="social-icon-popup">
-								<span class="popup-top">Steam Community</span>
-								<span class="popup-bottom">&nbsp;</span>
-							</span>
-						</a>
-					</li>
-					<li>
-						<a href="http://www.yelp.com/user_details?userid=mf7P63CCF-tQOv67XRlvpw">
-							<img src="images/social_icons/yelp_24.png" alt="Yelp" />
-							<span class="social-icon-popup">
-								<span class="popup-top">Yelp</span>
-								<span class="popup-bottom">&nbsp;</span>
-							</span>
-						</a>
-					</li>
-					<li>
-						<a href="http://www.facebook.com/ckankiewicz" title="Facebook">
-							<img src="images/social_icons/facebook_24.png" alt="Facebook" />
-							<span class="social-icon-popup">
-								<span class="popup-top">Facebook</span>
-								<span class="popup-bottom">&nbsp;</span>
-							</span>
-						</a>
-					</li>
-				</ul>
-			</div>
-			<div id="content-main">
-				<h2 id="page-title"><?= $this->title; ?></h2>
-				<?= $this->layout()->content; ?>
-			</div>
+		<div id="content-main">
+			<h2 id="page-title"><?= $this->title; ?></h2>
+			<?= $this->layout()->content; ?>
 		</div>
 	</div>
 
-	<div id="footer">
-		<div id="footer-bottom" class="clearfix">
-			<div class="width-constraint">
-				<div class="left">
-					Copyright &copy; <?= date('Y'); ?> <b>&middot;</b>
-					Chris Kankiewicz <b>&middot;</b>
-					Some Rights Reserved
-				</div>
-				<div class="right text-right">
-					Valid <a href="http://validator.w3.org/check?uri=http://www.directorylister.com">XHTML</a>
-					and <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> <b>&middot;</b>
-					Web design by, <a href="http://www.chriskankiewicz.com">Chris Kankiewicz</a>
-				</div>
-			</div>
+	<div id="footer" class="clearfix">
+		<div class="left">
+			Copyright &copy; <?= date('Y'); ?> <b>&middot;</b>
+			Chris Kankiewicz <b>&middot;</b>
+			Some Rights Reserved
+		</div>
+		<div class="right text-right">
+			Valid <a href="http://validator.w3.org/check?uri=http://www.directorylister.com">XHTML</a>
+			and <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> <b>&middot;</b>
+			Web design by, <a href="http://www.chriskankiewicz.com">Chris Kankiewicz</a>
 		</div>
 	</div>
 

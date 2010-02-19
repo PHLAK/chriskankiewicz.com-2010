@@ -107,7 +107,6 @@ a:hover {
 	text-decoration: none;
 }
 
-
 #site-navigation li a:hover {
 	text-decoration: underline;
 }
@@ -126,6 +125,7 @@ a:hover {
 #site-navigation li.active a:hover {
 	background-color: #FFF !important;
 	color: #323232;
+	text-decoration: none;
 }
 
 

@@ -36,7 +36,7 @@
 		<div id="nav-wrapper" class="clearfix">
 			<ul id="site-navigation" class="clearfix left">
 				<li <? if(strtolower($this->title) == 'home'): ?> class="active" <? endif; ?>><a href="/" id="home" class="first">Chris</a></li>
-				<li <? if(strtolower($this->title) == 'blog'): ?> class="active" <? endif; ?>><a href="/blog" id="blog">Blog</a></li>
+				<? /* <li <? if(strtolower($this->title) == 'blog'): ?> class="active" <? endif; ?>><a href="/blog" id="blog">Blog</a></li> */ ?>
 				<li <? if(strtolower($this->title) == 'portfolio'): ?> class="active" <? endif; ?>><a href="/portfolio" id="portfolio">Portfolio</a></li>
 				<li <? if(strtolower($this->title) == 'resume'): ?> class="active" <? endif; ?>><a href="/resume" id="resume">Resume</a></li>
 				<li <? if(strtolower($this->title) == 'photography'): ?> class="active" <? endif; ?>><a href="/photography" id="photography">Photography</a></li>
@@ -127,7 +127,7 @@
 			</ul>
 		</div>
 		<div id="content-main">
-			<h2 id="page-title"><?= $this->title; ?></h2>
+			<h1 id="page-title"><?= $this->title; ?></h1>
 			<?= $this->layout()->content; ?>
 		</div>
 	</div>

@@ -42,75 +42,78 @@
 				<li <? if(strtolower($this->title) == 'photography'): ?> class="active" <? endif; ?>><a href="/photography" id="photography">Photography</a></li>
 				<li <? if(strtolower($this->title) == 'contact'): ?> class="active" <? endif; ?>><a href="/contact" id="contact" class="last">Contact</a></li>
 			</ul>
-			<ul id="social-icons" class="clearfix right">
-				<li>
-					<a href="http://github.com/PHLAK">
-						<img src="images/social_icons/github_24.png" alt="GitHub"/>
-						<span class="social-icon-popup">
-							<span class="popup-top">GitHub</span>
-							<span class="popup-bottom">&nbsp;</span>
-						</span>
-					</a>
-				</li>
-				<li>
-					<a href="http://stackoverflow.com/users/27025">
-						<img src="images/social_icons/stackoverflow_24.png" alt="Stack Overflow"/>
-						<span class="social-icon-popup">
-							<span class="popup-top">Stack Overflow</span>
-							<span class="popup-bottom">&nbsp;</span>
-						</span>
-					</a>
-				</li>
-				<li>
-					<a href="http://twitter.com/PHLAK">
-						<img src="images/social_icons/twitter_24.png" alt="Twitter" />
-						<span class="social-icon-popup">
-							<span class="popup-top">Twitter</span>
-							<span class="popup-bottom">&nbsp;</span>
-						</span>
-					</a>
-				</li>
-				<li>
-					<a href="http://digg.com/users/PHLAK">
-						<img src="images/social_icons/digg_24.png" alt="Digg" />
-						<span class="social-icon-popup">
-							<span class="popup-top">Digg</span>
-							<span class="popup-bottom">&nbsp;</span>
-						</span>
-					</a>
-				</li>
-				<li>
-					<a href="http://picasaweb.google.com/CKankiewicz">
-						<img src="images/social_icons/picasa_24.png" alt="Picasa" />
-						<span class="social-icon-popup">
-							<span class="popup-top">Picasa</span>
-							<span class="popup-bottom">&nbsp;</span>
-						</span>
-					</a>
-				</li>
-				<li>
-					<a href="http://steamcommunity.com/id/PHLAK">
-						<img src="images/social_icons/steam_24.png" alt="Steam Community"/>
-						<span class="social-icon-popup">
-							<span class="popup-top">Steam Community</span>
-							<span class="popup-bottom">&nbsp;</span>
-						</span>
-					</a>
-				</li>
-				<li>
-					<a href="http://www.facebook.com/ckankiewicz" title="Facebook">
-						<img src="images/social_icons/facebook_24.png" alt="Facebook" />
-						<span class="social-icon-popup">
-							<span class="popup-top">Facebook</span>
-							<span class="popup-bottom">&nbsp;</span>
-						</span>
-					</a>
-				</li>
-			</ul>
+            <div id="site-search" class="right">
+                <input type="text" id="search-box" value="">
+                <input type="image" id="search-button" src="/images/icons/magnifier.png">
+            </div>
 		</div>
         <div id="page-title-wrapper" class="clearfix">
             <h1 id="page-title" class="left"><?= $this->title; ?></h1>
-            <? if($this->tag): ?><div id="page-tag" class="right"><?= $this->tag; ?></div><? endif; ?>
+            <ul id="social-icons" class="clearfix right">
+                <li>
+                    <a href="http://github.com/PHLAK">
+                        <img src="images/social_icons/github_24.png" alt="GitHub"/>
+                        <span class="social-icon-popup">
+                            <span class="popup-top">GitHub</span>
+                            <span class="popup-bottom">&nbsp;</span>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://stackoverflow.com/users/27025">
+                        <img src="images/social_icons/stackoverflow_24.png" alt="Stack Overflow"/>
+                        <span class="social-icon-popup">
+                            <span class="popup-top">Stack Overflow</span>
+                            <span class="popup-bottom">&nbsp;</span>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://twitter.com/PHLAK">
+                        <img src="images/social_icons/twitter_24.png" alt="Twitter" />
+                        <span class="social-icon-popup">
+                            <span class="popup-top">Twitter</span>
+                            <span class="popup-bottom">&nbsp;</span>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://digg.com/users/PHLAK">
+                        <img src="images/social_icons/digg_24.png" alt="Digg" />
+                        <span class="social-icon-popup">
+                            <span class="popup-top">Digg</span>
+                            <span class="popup-bottom">&nbsp;</span>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://picasaweb.google.com/CKankiewicz">
+                        <img src="images/social_icons/picasa_24.png" alt="Picasa" />
+                        <span class="social-icon-popup">
+                            <span class="popup-top">Picasa</span>
+                            <span class="popup-bottom">&nbsp;</span>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://steamcommunity.com/id/PHLAK">
+                        <img src="images/social_icons/steam_24.png" alt="Steam Community"/>
+                        <span class="social-icon-popup">
+                            <span class="popup-top">Steam Community</span>
+                            <span class="popup-bottom">&nbsp;</span>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.facebook.com/ckankiewicz" title="Facebook">
+                        <img src="images/social_icons/facebook_24.png" alt="Facebook" />
+                        <span class="social-icon-popup">
+                            <span class="popup-top">Facebook</span>
+                            <span class="popup-bottom">&nbsp;</span>
+                        </span>
+                    </a>
+                </li>
+            </ul>
         </div>
 		<div id="content-main">
 			<?= $this->layout()->content; ?>

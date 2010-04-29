@@ -130,6 +130,33 @@ a:hover {
 
 
 /* ---------------------------------------- */
+/* -----| SEARCH |------------------------- */
+/* ---------------------------------------- */
+
+#site-search {
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+}
+
+#search-box {
+    background:  #FFF url("../images/search-gradient.png") repeat-x left -7px;
+    border: 1px solid #BEBEBE;
+    padding: 3px 22px 3px 3px;
+    width: 175px;
+}
+
+#search-button {
+    cursor: pointer;
+    display: inline-block;
+    padding: 4px 3px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+/* ---------------------------------------- */
 /* -----| CONTENT |------------------------ */
 /* ---------------------------------------- */
 
@@ -430,7 +457,7 @@ a:hover {
 	margin-left: -65px;
 	position: absolute;
 	text-align: center;
-	width: 130px;
+	width: 150px;
 }
 
 .popup-top {

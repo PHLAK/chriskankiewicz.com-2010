@@ -13,7 +13,8 @@ class PhotographyController extends Zend_Controller_Action
 	public function indexAction()
 	{
 		$this->view->title = 'Photography';
-		$this->view->css = '/css/ubergallery.css';
+		$this->view->tag   = 'I believe in equality for everyone, except reporters and photographers';
+		$this->view->css   = '/css/ubergallery.css';
 	}
 
 

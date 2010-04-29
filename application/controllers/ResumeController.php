@@ -11,6 +11,7 @@ class ResumeController extends Zend_Controller_Action
 	public function indexAction()
 	{
 		$this->view->title = 'Resume';
+		$this->view->tag   = "Chris's professional resume";
 	}
 
 

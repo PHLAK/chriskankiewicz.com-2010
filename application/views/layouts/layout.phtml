@@ -126,8 +126,11 @@
 				</li>
 			</ul>
 		</div>
+        <div id="page-title-wrapper" class="clearfix">
+            <h1 id="page-title" class="left"><?= $this->title; ?></h1>
+            <? if($this->tag): ?><div id="page-tag" class="right"><?= $this->tag; ?></div><? endif; ?>
+        </div>
 		<div id="content-main">
-			<h1 id="page-title"><?= $this->title; ?></h1>
 			<?= $this->layout()->content; ?>
 		</div>
 	</div>

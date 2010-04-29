@@ -137,10 +137,20 @@ a:hover {
 	padding: 15px;
 }
 
+#page-title-wrapper {
+    padding: 5px 15px;
+    border-bottom: 1px dotted #000;
+}
+
 #page-title {
 	font-size: 1.3em !important;
-	margin: 0 0 .5em;
-	border-bottom: 1px solid #000;
+	margin: 0;
+}
+
+#page-tag {
+    color: #999;
+    font-size: .9em;
+    margin-top: 3px;
 }
 
 #content h2 {

@@ -164,6 +164,10 @@ a:hover {
 	padding: 15px;
 }
 
+#content-main p, #content-main ul, #content-main ol {
+    line-height: 1.4em;
+}
+
 #page-title-wrapper {
     padding: 5px 15px;
     border-bottom: 1px dotted #000;
